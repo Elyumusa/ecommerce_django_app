@@ -21,7 +21,7 @@ Future<dynamic> showHelpCenterBottomSheet(BuildContext context) {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'e_commerce_site_django App Help Center',
+                'Fashion App Help Center',
                 style: appStyle(
                   18.0,
                   Kolors.kPrimary,

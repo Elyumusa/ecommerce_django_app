@@ -1,5 +1,7 @@
 class AppText {
   static const String kCategory = 'Category';
+  static const String kGetStarted = "Let's Get Started";
+  static const String kAppName = 'Fashion App';
   static const String kCategories = 'Categories';
   static const String kNotifications = 'Notifications';
   static const String kAddresses = 'Addresses';
@@ -10,15 +12,20 @@ class AppText {
   static const String kVerify = 'Verification Code';
   static const String kVerifyText =
       'Please enter the code we just sent to email';
+  static const String kCartErrorText =
+      'Please select size and color to proceed';
   static const String kSearch = 'Search';
+  static const String kSearchHint = 'Search For Products';
+  static const String kSearchResults = 'Search Results';
 
-  static const String kProfilePic =
-      'https://d326fntlu7tb1e.cloudfront.net/uploads/0856609b-21e8-4e73-85cb-1f9a93de81f4-avatar.png';
+  static const String kProfilePic = "assets/images/profile_pic.jpg";
+  //'https://d326fntlu7tb1e.cloudfront.net/uploads/0856609b-21e8-4e73-85cb-1f9a93de81f4-avatar.png';
 
   static const String kCollection = 'New Collection';
   static const String kPolicy = 'Privacy Policy';
   static const String kCancelation = 'Cancelation Policy';
   static const String kTerms = 'Terms & Conditions';
+  static const String kOrder = 'My Orders';
   static const String kHomeBtn = 'Shop Now';
   static const String kViewAll = 'See All';
   static const String kFlash = 'Flash Sales';
@@ -52,7 +59,7 @@ class AppText {
   static const String kAppCancelationPolicy =
       'We understand that shopping plans can change, so we offer a flexible cancelation window for your orders. Briefly, you can cancel most unworn and unwashed items within [Number] days of receiving them for a full refund (refer to the policy for details). This allows you to shop with confidence, knowing you have options if something does not work out';
   static const String kWelcomeHeader =
-      'The e_commerce_site_django App That \nMakes You Look You Best';
+      'The Fashion App That \nMakes You Look You Best';
   static const String kWelcomeMessage =
       "Welcome to e_commerce_site_django app! Discover trends, shop favorite styles, and elevate your wardrobe. Let's get started ";
   static const String kOnboardWishList =

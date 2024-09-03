@@ -4,6 +4,7 @@ import 'package:e_commerce_site_django/common/widgets/app_style.dart';
 import 'package:e_commerce_site_django/common/widgets/reusable_text.dart';
 import 'package:e_commerce_site_django/const/constants.dart';
 import 'package:e_commerce_site_django/const/resource.dart';
+import 'package:e_commerce_site_django/src/cart/controllers/cart_notifier.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
@@ -49,11 +50,11 @@ class FailedPayment extends StatelessWidget {
       ),
       bottomNavigationBar: GestureDetector(
         onTap: () {
-          // context.read<CartNotifier>().setPaymentUrl('');
+          context.read<CartNotifier>().setPaymentUrl('');
           // context
           //     .read<NotificationNotifier>()
           //     .setReloadCount(NotificationCount.update);
-          // context.go('/home');
+          context.go('/home');
         },
         child: Container(
           height: 80,
